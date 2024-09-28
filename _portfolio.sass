@@ -1,0 +1,46 @@
+#portfolio
+    background-color: #f8f9fa
+    h1,h2,h3,h4
+        cursor: tex
+    .text-center
+        text-align: centert
+    h1
+        font-size: 43px
+        font-weight: 700
+        margin-bottom: 20px
+    h3,h4
+        color: #667581
+        font-size: 18px
+    .box
+        margin: 20px 0
+        background-color: #ffff
+        .imgbox
+            position: relative
+            .icon
+                position: absolute
+                top: 0
+                bottom: 0
+                display: flex
+                align-items: center
+                justify-content: center
+                width: 100%
+                color: #ffff
+                font-size: 60px
+                opacity: 0
+                transition: 0.5s
+                &:hover
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
+        .textbox
+            text-align: center
+            margin: 32px
+            h2
+                margin-bottom: 10px
+                font-size: 25px
+                font-weight: 700
+                font-family: sans-serif
+    @media screen and ( max-width: 576px )
+        .box
+            width: 425px
